@@ -1,0 +1,19 @@
+// Este codigo imprime la suma desde i=3, usando la forma n+3, hasta 99
+
+#include <stdio.h>
+int main() {
+
+	int base = 3;
+
+	for (int contador = 0; contador <31; contador++){
+		base = base + 3;
+		printf("%d, ", base);
+
+		if (base == 96) {
+			base = base + 3;
+			printf("%d", base);
+		}
+	}
+}
+
+
